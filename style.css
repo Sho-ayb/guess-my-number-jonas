@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  color: #fff;
+}
+
+header {
+  background-color: #000;
+  color: limegreen;
+  padding: 1em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.box {
+  width: 90%;
+  max-width: 850px;
+  height: 90vh;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: #282828;
+  border: 5px solid limegreen;
+  display: grid;
+  grid-template-rows: auto 350px 400px;
+}
+
+.box-header {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+.box-middle {
+  padding: 2em;
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+  place-content: center;
+}
+
+.box-middle h2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.box-middle .question {
+  width: 15rem;
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 5rem;
+  color: #000;
+  background-color: #fff;
+  border: 3px solid limegreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box-footer-left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-footer-left .guess {
+  font-size: 2rem;
+  padding: 2em 0;
+  margin-bottom: 1em;
+  text-align: center;
+  border: 3px solid limegreen;
+}
+
+.box-footer-right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-footer-right .message {
+  font-size: 1.8rem;
+  padding: 0 0 1.4em;
+}
+
+.box-footer-right .label-score {
+  font-size: 1.7rem;
+  padding: 0 0 1.4em;
+}
+
+.box-footer-right .label-highscore {
+  font-size: 1.7rem;
+}
+
+.btn {
+  width: min-content;
+  border: 3px solid limegreen;
+  padding: 1em;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  border-radius: 3px;
+}
