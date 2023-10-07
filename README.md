@@ -40,7 +40,7 @@ https://github.com/Sho-ayb/guess-my-number
 
 ## Game Snapshots
 
-![Guess My Number](./assets/images/guess-my-number.png)
+![Guess My Number](./assets/images/guess-my-number.PNG)
 
 ## Licence
 
