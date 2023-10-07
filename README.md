@@ -38,6 +38,10 @@ I have included my own css styles but you can style it however you like for your
 
 https://github.com/Sho-ayb/guess-my-number
 
+## Deployed Live
+
+[Guess My Number](https://sho-ayb.github.io/guess-my-number/)
+
 ## Game Snapshots
 
 ![Guess My Number](./assets/images/guess-my-number.PNG)
