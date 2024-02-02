@@ -36,11 +36,11 @@ I have included my own css styles but you can style it however you like for your
 
 ## Github
 
-https://github.com/Sho-ayb/guess-my-number
+https://github.com/Sho-ayb/guess-my-number-jonas
 
 ## Deployed Live
 
-[Guess My Number](https://sho-ayb.github.io/guess-my-number/)
+[Guess My Number](https://sho-ayb.github.io/guess-my-number-jonas)
 
 ## Game Snapshots
 
